@@ -662,7 +662,7 @@ conn.sendMessage(id, '*_Powered By FarhanXCode7_*', MessageType.text);
  
 if (text.includes("!wp"))
    {
-    var items = ["wallpaper cewek selebgram", "wallpaper cewek desa cantik", "wallpaper cewek cans", "wallpaper cewek bugil", "wallpaper cewek sexy", "wallpaper cewek montok", "wallpaper cewe cantik", "wallpaper hijab sexy", "wallpaper remaja cantik", "wallpaper remaja montok", "wallpaper artis bokep"];
+    var items = ["wallpaper cewek selebgram", "wallpaper anime cantik", "wallpaper cewek cans", "wallpaper anime hd", "wallpaper cewek sexy", "wallpaper cewek montok", "wallpaper cewe cantik", "wallpaper hijab sexy", "wallpaper remaja cantik", "wallpaper remaja montok", "wallpaper artis bokep"];
     var cewe = items[Math.floor(Math.random() * items.length)];
     var url = "https://api.fdci.se/rep.php?gambar=" + nime;
     
@@ -673,7 +673,7 @@ if (text.includes("!wp"))
         imageToBase64(memek) // Path to the image
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ]❗ Sedang mencari foto wallpaper cewek⏳ silahkan tunggu sebentar', MessageType.text)
+    conn.sendMessage(id, '[ WAIT ]❗ Sedang mencari foto wallpaper ⏳ silahkan tunggu sebentar', MessageType.text)
   	var buf = Buffer.from(response, 'base64'); // Ta-da	
               conn.sendMessage(
             id,
