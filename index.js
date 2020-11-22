@@ -805,7 +805,7 @@ if (text.includes("!say anjing")){
 	const alay = text.replace("/!say/", "iya lu")
 		conn.sendMessage(id, hasil, MessageType.text)
 	}
-}
+
 
 
 })
